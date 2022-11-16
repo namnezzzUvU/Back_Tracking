@@ -1,3 +1,13 @@
+/*chập k của n
+ta phải đặt bit 0 = 0
+mỗi bit thứ i thì số lớn nhất đạt đc là
+n-k+i;
+vậy ta cho chạy từ bit nhỏ nhất là bit đứng
+trước nó +1 đến n-k+i; do vậy, để các bit liên kết vs nhau
+vì cứ mỗi bit sau có gtri min là bit trc +1
+nên ta để bit 0 = 0. và bắt đầu xét từ bit số 1
+như vậy ta sẽ in ra hết trg hợp
+*/
 #include <bits/stdc++.h>
 void display(int k, int arr[])
 {
