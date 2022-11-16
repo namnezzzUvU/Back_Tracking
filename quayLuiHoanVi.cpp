@@ -1,3 +1,11 @@
+/*ý tưởng :
+cho 1 hàm check để ktra, setup nó = true
+nếu check[j] = true, thì ta cho bit tiếp theo =j;
+rồi đặt check[j]=false;
+nếu = n thì in ra kqua , còn không thì lặp lại 
+với bit tiếp theo
+, và sau khi lặp lại thì xét lại check[j]=true;
+*/
 #include <bits/stdc++.h>
 void init(int &n, bool check[])
 {
