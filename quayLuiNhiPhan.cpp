@@ -1,3 +1,9 @@
+/* đầu tiên, tất cả trg hợp của bit chỉ có thể là 0 hoặc 1.
+ta xét từ bit thứ nhất, cho nó bằng 0. . và cứ thế quy hồi.
+bit bằng n thì in ra, còn không thì back track với bit tiếp
+ theo
+*/
+
 #include <bits/stdc++.h>
 void init(int &n)
 {
