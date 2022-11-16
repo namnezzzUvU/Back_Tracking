@@ -1,3 +1,16 @@
+/*
+ta xét với phần tử đầu làm mẫu,
+ta cho nó tăng dần và xét các trường hợp
+có thẻ có với bit đầu đó.
+ta dùng biến current sum để tính.
+mỗi trường hợp thỏa mãn ta sẽ +j vào
+curSum. Nếu curSum==n thì in ra , còn nhỏ hơn thì ta
+tiếp tục với cá trường hợp khác.
+các bit đầu ta xét từ 1->n
+các trường hợp có thể xảy ra là 
+các bit sau với giá trị từ 1->max
+với max là giá trị của bit đầu.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int arr[100], n;
